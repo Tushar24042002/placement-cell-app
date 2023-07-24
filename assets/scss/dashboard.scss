@@ -1,0 +1,284 @@
+.container-dashboard{
+  display: flex;
+  flex-direction: column;
+  margin: auto 5%;
+
+  .students-heading, .interview-heading{
+    /* background: whitesmoke; */
+    padding: 0px 19px;
+    font-size: 2rem;
+    /* border-radius: 5px; */
+    color: #239002;
+    margin: 15px 0;
+  }
+
+  .students{
+    overflow: auto;
+  }
+
+  .student-details{
+    display: flex;
+    flex-direction: column;
+    min-width: 25%;
+  }
+  .students-list{
+    display: flex;
+    gap: 2rem;
+    margin: 20px;
+  }
+
+ 
+
+  .student-details-card{
+    //background-color: #ff5722;
+    color: white;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #ffab13 100%);
+
+
+    &__basic-information{
+      display: flex;
+      justify-content: space-between;
+      background: rgb(0, 0, 0);
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+      
+
+      &__details{
+        p{
+          font-weight: 600;
+          color: #ff5722;
+        }
+      }
+    }
+
+    &__score{
+      
+      margin-bottom: 10px;
+    }
+
+    &__actions{
+      display: flex;
+      justify-content: space-around;
+
+      &__button{
+        padding: 6px 15px;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+       
+
+      }
+    }
+
+    &__interviews{
+
+      background-color: #4f57ce;
+      color: white;
+      padding: 10px;
+      box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+      border-radius: 5px;
+      margin-top: 20px;
+
+      &__heading{
+        margin: 10px 0;
+        font-size: 1.25rem;
+
+      }
+
+      &__table{
+        border-collapse: collapse;
+        width: 100%;
+
+        td, th{
+          border: 1px solid #ddd;
+          padding: 8px;
+        }
+
+        tr:nth-child(even){
+          background-color: #f2f2f2;
+        }
+
+        tr:hover {
+          background-color: white;
+          color: black;
+        }
+
+        th{
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: #239002;
+          color: white;
+        }
+      }
+    }
+
+    
+  }
+
+  .primary{
+    background-color: #239002;
+  }
+
+  .danger{
+    background-color: red;
+  }
+
+
+  //interview details
+  .interview-list{
+
+    .interview-details{
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      margin: 20px;
+    }
+
+    .interview-detail{
+      
+      min-width: 25%;
+      &__information{
+
+        //0f112d
+        background-color: orangered;
+        color: white;
+        padding: 10px;
+        box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+        border-radius: 5px;
+        margin-top: 20px;
+
+        &__date{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          &__name{
+            font-size: 2rem;
+            padding: 0;
+            margin: 0;
+            font-weight: 600;
+          }
+
+          &__doi{
+            font-size: 1rem;
+            span{
+              font-weight: 600;
+            }
+          }
+        }
+
+        &__enrolled{
+          &__hr{
+            display: block;
+            height: 1px;
+            border: 0;
+            border-top: 2px solid rgb(255, 255, 255);
+            margin: 1em 0;
+            padding: 0;
+          }
+          &__heading{
+            margin: 10px 0;
+            font: 1rem;
+            font-weight: 600;
+          }
+          &__table{
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 15px;
+            td, th{
+              border: 1px solid #ddd;
+              padding: 8px;
+            }
+    
+            tr:nth-child(even){
+              background-color: #f2f2f2;
+            }
+    
+            tr:hover {
+              background-color: white;
+              color: black;
+            }
+    
+            th{
+              padding-top: 12px;
+              padding-bottom: 12px;
+              text-align: left;
+              background-color: #239002;
+              color: white;
+            }
+          }
+          &__action{
+            margin-bottom: 10px;
+            &__button{
+              padding: 6px 15px;
+              color: white;
+              text-decoration: none;
+              border-radius: 5px;
+            }
+            
+          }
+        }
+      }
+
+      &__add{
+        margin: 20px 0;
+        &__hr{
+          display: block;
+          height: 1px;
+          border: 0;
+          border-top: 2px solid rgb(255, 255, 255);
+          margin: 1em 0;
+          padding: 0;
+        }
+        &__heading{
+          margin: 10px 0;
+          font: 1rem;
+          font-weight: 600;
+        }
+        &__email{
+
+          input{
+            border: none;
+            outline: none;
+            padding: 8px 10px;
+            border-radius: 3px;
+            margin-bottom: 5px;
+            width: 80%;
+          }
+        }
+
+        &__result{
+          select{
+            outline: none;
+            border: none;
+            padding: 8px 5px;
+            border-radius: 3px;
+            margin: 10px 0px;
+          }
+        }
+
+        &__button{
+          outline: none;
+          border: none;
+          padding: 8px 17px;
+          font-size: 0.9rem;
+          text-transform: uppercase;
+          font-weight: 500;
+          border-radius: 3px;
+          color: white;
+        }
+      }
+    }
+  }
+
+  .interview-detail__information__date__div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

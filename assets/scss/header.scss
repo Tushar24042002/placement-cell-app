@@ -1,0 +1,36 @@
+header{
+  height: 10vh;
+  background-color:#239002;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  padding: 0 10%;
+
+  .header-logo{
+    font-size: 1.5rem;
+  }
+
+ 
+
+  ul{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  li{
+    display: flex;
+    gap: 1rem;
+  }
+  a{
+    list-style: none;
+    color: #0044d4;
+    background-color: white;
+    padding: 8px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+}

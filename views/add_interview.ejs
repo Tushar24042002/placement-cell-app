@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="<%= assetPath('css/add-interview.css') %>">
+<% if (locals.user) {%>
+  <div class="container-add-interview">
+  <p class="container-add-interview__heading">Add an interview </p>
+
+  <form class="add-interview" action="/interview/create" method="POST">
+
+    <div class="add-interview__class company">
+      
+      <input type="text" class="form-control" placeholder="Enter company name" id="company" name="company" required />
+    </div>
+
+    <div class="add-interview__class date">
+      
+      <input type="date" class="form-control" placeholder="Enter interview date" id="date" name="date" required />
+    </div>
+
+    <div class="add-interview__class__btn">
+      <button type="submit" class="btn btn-primary">Add interview</button>
+    </div>
+
+  </form>
+</div>
+</div>
+
+<%} %>

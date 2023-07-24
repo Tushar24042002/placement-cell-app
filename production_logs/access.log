@@ -1,0 +1,1086 @@
+::1 - - [11/Nov/2022:10:55:30 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:10:55:32 +0000] "POST /create-session HTTP/1.1" 302 64 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:10:55:32 +0000] "GET /dashboard HTTP/1.1" 200 4661 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:10:55:35 +0000] "GET /interview/add-interview HTTP/1.1" 304 - "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:11:47:45 +0000] "GET /interview/add-interview HTTP/1.1" 304 - "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:11:47:45 +0000] "GET /css/layout.css HTTP/1.1" 404 153 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:11:47:45 +0000] "GET /css/footer.css HTTP/1.1" 404 153 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:11:47:45 +0000] "GET /css/header.css HTTP/1.1" 404 153 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:11:47:45 +0000] "GET /css/add-interview.css HTTP/1.1" 404 160 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:11:47:45 +0000] "GET /css/layout.css HTTP/1.1" 404 153 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:11:47:45 +0000] "GET /css/header.css HTTP/1.1" 404 153 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:11:47:45 +0000] "GET /css/footer.css HTTP/1.1" 404 153 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:11:47:45 +0000] "GET /css/add-interview.css HTTP/1.1" 404 160 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:11:47:49 +0000] "GET /css/layout.css HTTP/1.1" 404 153 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:11:47:49 +0000] "GET /css/header.css HTTP/1.1" 404 153 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:11:47:49 +0000] "GET /css/footer.css HTTP/1.1" 404 153 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:11:47:49 +0000] "GET /css/add-interview.css HTTP/1.1" 404 160 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:11:47:51 +0000] "GET /interview/add-interview HTTP/1.1" 304 - "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:11:47:51 +0000] "GET /css/layout.css HTTP/1.1" 404 153 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:11:47:51 +0000] "GET /css/header.css HTTP/1.1" 404 153 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:11:47:51 +0000] "GET /css/footer.css HTTP/1.1" 404 153 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:11:47:51 +0000] "GET /css/add-interview.css HTTP/1.1" 404 160 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:10:46 +0000] "GET /interview/add-interview HTTP/1.1" 200 3009 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:10:46 +0000] "GET /css/add-interview.css HTTP/1.1" 404 160 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:10:46 +0000] "GET /css/add-interview.css HTTP/1.1" 404 160 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:10:49 +0000] "GET /sign-out HTTP/1.1" 302 46 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:10:49 +0000] "GET / HTTP/1.1" 200 2073 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:10:49 +0000] "GET /css/user_signin.css HTTP/1.1" 404 158 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:26:05 +0000] "GET / HTTP/1.1" 200 2063 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:26:05 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:26:05 +0000] "GET /undefined HTTP/1.1" 404 148 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:26:10 +0000] "POST /create-session HTTP/1.1" 302 64 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:26:10 +0000] "GET /dashboard HTTP/1.1" 200 4707 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:26:17 +0000] "GET /download HTTP/1.1" 200 178 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:26:20 +0000] "GET /interview/add-interview HTTP/1.1" 200 3020 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:26:21 +0000] "GET /student/add-student HTTP/1.1" 200 4301 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:26:22 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/student/add-student" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:26:23 +0000] "GET /profile HTTP/1.1" 200 3445 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:26:23 +0000] "GET /css/update-profile.css HTTP/1.1" 404 161 "http://localhost:8080/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:27:18 +0000] "GET /profile HTTP/1.1" 304 - "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:27:18 +0000] "GET /css/update-profile.css HTTP/1.1" 404 161 "http://localhost:8080/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:27:19 +0000] "GET /css/update-profile.css HTTP/1.1" 404 161 "http://localhost:8080/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:27:20 +0000] "GET /sign-out HTTP/1.1" 302 46 "http://localhost:8080/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:27:20 +0000] "GET / HTTP/1.1" 200 2084 "http://localhost:8080/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:27:22 +0000] "GET /sign-up HTTP/1.1" 200 2234 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:27:24 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8080/sign-up" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:27:27 +0000] "POST /create-session HTTP/1.1" 302 64 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:27:27 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:27:29 +0000] "GET /student/add-student HTTP/1.1" 304 - "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:27:42 +0000] "POST /student/create HTTP/1.1" 302 126 "http://localhost:8080/student/add-student" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:27:42 +0000] "GET /student/add-student HTTP/1.1" 304 - "http://localhost:8080/student/add-student" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:27:44 +0000] "GET /dashboard HTTP/1.1" 200 7305 "http://localhost:8080/student/add-student" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:27:47 +0000] "GET /profile HTTP/1.1" 304 - "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:27:47 +0000] "GET /css/update-profile.css HTTP/1.1" 404 161 "http://localhost:8080/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:28:18 +0000] "GET /profile HTTP/1.1" 200 3456 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:34:49 +0000] "GET /sign-out HTTP/1.1" 302 46 "http://localhost:8080/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:34:49 +0000] "GET / HTTP/1.1" 200 2093 "http://localhost:8080/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:12:34:52 +0000] "GET /sign-up HTTP/1.1" 200 2243 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:43:46 +0000] "GET /sign-up HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:43:52 +0000] "POST /create-session HTTP/1.1" 302 56 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:43:52 +0000] "GET /login HTTP/1.1" 404 144 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:44:29 +0000] "GET / HTTP/1.1" 500 1745 "http://localhost:8080/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:46:09 +0000] "GET / HTTP/1.1" 200 2093 "http://localhost:8080/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:46:10 +0000] "POST /create-session HTTP/1.1" 302 64 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:46:10 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:46:14 +0000] "POST /create-session HTTP/1.1" 302 56 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:46:14 +0000] "GET /login HTTP/1.1" 404 144 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:46:26 +0000] "GET /signin HTTP/1.1" 404 145 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:47:34 +0000] "GET / HTTP/1.1" 302 64 "http://localhost:8080/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:47:34 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/profile" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:47:36 +0000] "GET /sign-out HTTP/1.1" 302 46 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:47:36 +0000] "GET / HTTP/1.1" 200 2093 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:47:39 +0000] "POST /create-session HTTP/1.1" 302 46 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:47:39 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:47:40 +0000] "POST /create-session HTTP/1.1" 302 64 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:47:40 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:47:49 +0000] "GET /dashboard HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:47:51 +0000] "GET /sign-out HTTP/1.1" 302 46 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:47:51 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:47:56 +0000] "GET /dashboard HTTP/1.1" 302 46 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:14:47:56 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:18:37:42 +0000] "GET / HTTP/1.1" 200 2093 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:18:37:43 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:18:37:45 +0000] "POST /create-session HTTP/1.1" 302 64 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:18:37:45 +0000] "GET /dashboard HTTP/1.1" 200 7305 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:18:37:47 +0000] "GET /sign-out HTTP/1.1" 302 46 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:18:37:47 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:18:37:49 +0000] "POST /create-session HTTP/1.1" 302 46 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:18:37:49 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:18:37:50 +0000] "POST /create-session HTTP/1.1" 302 64 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [11/Nov/2022:18:37:50 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:07:33:45 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:07:33:45 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:07:34:02 +0000] "POST /create-session HTTP/1.1" 302 64 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:07:34:02 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:07:34:08 +0000] "GET /interview/add-interview HTTP/1.1" 304 - "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:07:34:13 +0000] "POST /interview/create HTTP/1.1" 302 134 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:07:34:13 +0000] "GET /interview/add-interview HTTP/1.1" 304 - "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:07:34:13 +0000] "GET /dashboard HTTP/1.1" 200 9258 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:07:50:50 +0000] "GET /dashboard HTTP/1.1" 500 2564 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:07:51:10 +0000] "GET /dashboard HTTP/1.1" 200 9732 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:07:51:44 +0000] "GET /dashboard HTTP/1.1" 200 9716 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:07:54:19 +0000] "GET /dashboard HTTP/1.1" 200 9726 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:07:55:43 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:07:56:43 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:07:56:45 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:08:03:02 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [12/Nov/2022:09:23:59 +0000] "GET /dashboard HTTP/1.1" 302 46 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [12/Nov/2022:09:23:59 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [12/Nov/2022:09:24:01 +0000] "POST /create-session HTTP/1.1" 302 64 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [12/Nov/2022:09:24:01 +0000] "GET /dashboard HTTP/1.1" 200 9726 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [12/Nov/2022:09:24:04 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::ffff:127.0.0.1 - - [12/Nov/2022:09:24:06 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:25:05 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:25:07 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:27:41 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:27:46 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:27:52 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:27:54 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:28:25 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:28:26 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:29:54 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:29:55 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:30:03 +0000] "GET /dashboard HTTP/1.1" 302 46 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:30:03 +0000] "GET / HTTP/1.1" 200 2093 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:30:13 +0000] "POST /create-session HTTP/1.1" 302 64 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:30:13 +0000] "GET /dashboard HTTP/1.1" 200 9726 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:32:53 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:34:46 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:34:49 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:34:49 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:34:50 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:35:31 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:35:57 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:42:57 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:44:52 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+[0mGET /dashboard [36m302[0m 9.197 ms - 46[0m
+[0mGET / [36m304[0m 24.597 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 24.678 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 20.759 ms - 169[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 71.042 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 55.566 ms - 164[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 16.921 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 22.093 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 27.874 ms - 169[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 32.881 ms - 164[0m
+[0mGET / [36m304[0m 5.168 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 25.916 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 18.143 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 21.040 ms - 169[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 6.899 ms - 164[0m
+::1 - - [12/Nov/2022:09:48:20 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:48:26 +0000] "POST /create-session HTTP/1.1" 302 46 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:48:26 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:48:31 +0000] "POST /create-session HTTP/1.1" 302 64 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:48:31 +0000] "GET /dashboard HTTP/1.1" 200 9726 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:49:00 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:49:08 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:50:25 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:51:39 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:51:40 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:51:41 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:51:42 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+[0mGET /dashboard [36m302[0m 5.859 ms - 46[0m
+[0mGET / [36m304[0m 33.004 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 29.145 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 29.025 ms - 169[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 63.041 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 63.851 ms - 164[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 24.524 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 23.514 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 33.178 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 29.524 ms - 169[0m
+[0mGET / [36m304[0m 7.342 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 21.390 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 24.499 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 23.578 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 40.293 ms - 169[0m
+[0mGET / [36m304[0m 5.029 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 17.741 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 20.027 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 25.931 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 25.114 ms - 169[0m
+::1 - - [12/Nov/2022:09:54:43 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:54:49 +0000] "POST /create-session HTTP/1.1" 302 64 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:09:54:49 +0000] "GET /dashboard HTTP/1.1" 200 9726 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+[0mGET /dashboard [36m302[0m 9.174 ms - 46[0m
+[0mGET / [36m304[0m 28.173 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 32.433 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 36.454 ms - 169[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 75.445 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 81.308 ms - 164[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 20.636 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 22.837 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 27.418 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 48.892 ms - 169[0m
+[0mGET / [36m304[0m 26.290 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 23.023 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 19.211 ms - 169[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 55.755 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 37.415 ms - 164[0m
+[0mGET / [36m304[0m 9.328 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 16.962 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 17.240 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 19.360 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 32.910 ms - 169[0m
+[0mGET / [36m304[0m 27.071 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 30.600 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 30.628 ms - 169[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 58.687 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 62.169 ms - 164[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 17.783 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 26.887 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 27.889 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 55.804 ms - 169[0m
+[0mGET / [36m304[0m 7.244 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 24.162 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 26.925 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 27.382 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 19.594 ms - 169[0m
+[0mGET / [36m304[0m 42.871 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 26.541 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 33.259 ms - 169[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 66.329 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 69.421 ms - 164[0m
+[0mGET / [36m304[0m 8.896 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 9.836 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 16.241 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 18.218 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 18.035 ms - 169[0m
+[0mGET / [36m304[0m 4.601 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 11.368 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 18.745 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 19.337 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 35.462 ms - 169[0m
+[0mGET / [36m304[0m 7.183 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 12.812 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 19.596 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 20.668 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 24.593 ms - 169[0m
+[0mPOST /create-session [36m302[0m 10.739 ms - 46[0m
+[0mGET / [36m304[0m 12.669 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 15.192 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 13.377 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 12.288 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 5.118 ms - 169[0m
+::1 - - [12/Nov/2022:10:06:32 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:10:06:39 +0000] "POST /create-session HTTP/1.1" 302 64 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:10:06:39 +0000] "GET /dashboard HTTP/1.1" 200 9726 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:10:07:57 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:10:07:58 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+[0mGET / [32m200[0m 41.665 ms - 2093[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 17.613 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 10.580 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 26.840 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 22.130 ms - 169[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 18.898 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 19.544 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 19.820 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 30.149 ms - 169[0m
+[0mGET /favicon.ico [33m404[0m 2.749 ms - 150[0m
+[0mGET / [36m304[0m 21.053 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 20.033 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 13.624 ms - 169[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 40.822 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 41.561 ms - 164[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 17.495 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 16.691 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 8.978 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 8.646 ms - 169[0m
+[0mGET / [36m304[0m 26.813 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 22.318 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 17.651 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 36.250 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 37.325 ms - 169[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 19.435 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 21.703 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 22.220 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 29.131 ms - 169[0m
+[0mGET /favicon.ico [33m404[0m 5.371 ms - 150[0m
+[0mGET / [36m304[0m 32.836 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 15.005 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 15.975 ms - 169[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 31.935 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 34.002 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 16.585 ms - 164[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 15.402 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 22.708 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 42.934 ms - 169[0m
+[0mGET / [36m304[0m 20.516 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 27.061 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 16.394 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 46.945 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 39.658 ms - 169[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 13.951 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 10.201 ms - 169[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 11.839 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 15.185 ms - 164[0m
+[0mGET / [36m304[0m 37.214 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 26.795 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 20.672 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 55.147 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 47.986 ms - 169[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 7.962 ms - 164[0m
+[0mGET / [36m304[0m 30.371 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 16.532 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 17.953 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 19.563 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 35.358 ms - 169[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 8.961 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 11.052 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 13.932 ms - 164[0m
+::1 - - [12/Nov/2022:12:45:30 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:12:45:36 +0000] "POST /create-session HTTP/1.1" 302 64 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:12:45:36 +0000] "GET /dashboard HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:14:30:43 +0000] "GET /dashboard HTTP/1.1" 302 46 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:14:30:43 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:14:30:48 +0000] "POST /create-session HTTP/1.1" 302 64 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:14:30:48 +0000] "GET /dashboard HTTP/1.1" 200 9726 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:15:55 +0000] "GET /dashboard HTTP/1.1" 302 46 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:15:55 +0000] "GET / HTTP/1.1" 200 2093 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:15:59 +0000] "POST /create-session HTTP/1.1" 302 64 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:15:59 +0000] "GET /dashboard HTTP/1.1" 200 9812 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:16:07 +0000] "GET /interview/destroy/636f4c756305f2373a8cb75a HTTP/1.1" 302 106 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:16:07 +0000] "GET /dashboard HTTP/1.1" 200 7582 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:17:50 +0000] "GET /dashboard HTTP/1.1" 200 7586 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:17:58 +0000] "POST /interview/enroll-in-interview/636e1f8c99a2104c83d779c8 HTTP/1.1" 302 106 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:17:59 +0000] "GET /dashboard HTTP/1.1" 200 8935 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:18:01 +0000] "GET /interview/destroy/636e1f8c99a2104c83d779c8 HTTP/1.1" 302 106 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:18:01 +0000] "GET /dashboard HTTP/1.1" 200 5352 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:18:14 +0000] "GET /interview/add-interview HTTP/1.1" 200 3020 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:18:19 +0000] "POST /interview/create HTTP/1.1" 302 134 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:18:19 +0000] "GET /interview/add-interview HTTP/1.1" 304 - "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:18:24 +0000] "POST /interview/create HTTP/1.1" 302 134 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:18:24 +0000] "GET /interview/add-interview HTTP/1.1" 304 - "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:18:25 +0000] "GET /dashboard HTTP/1.1" 200 9821 "http://localhost:8080/interview/add-interview" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:18:30 +0000] "POST /interview/enroll-in-interview/636fd55b107292bcdc8a2bea HTTP/1.1" 302 106 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:18:30 +0000] "GET /dashboard HTTP/1.1" 200 11170 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:18:37 +0000] "POST /interview/enroll-in-interview/636fd560107292bcdc8a2bee HTTP/1.1" 302 106 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:18:37 +0000] "GET /dashboard HTTP/1.1" 200 12520 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:21:22 +0000] "GET /dashboard HTTP/1.1" 200 12520 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:21:28 +0000] "GET /student/add-student HTTP/1.1" 200 4301 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:21:43 +0000] "POST /student/create HTTP/1.1" 302 126 "http://localhost:8080/student/add-student" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:21:43 +0000] "GET /student/add-student HTTP/1.1" 304 - "http://localhost:8080/student/add-student" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:21:44 +0000] "GET /dashboard HTTP/1.1" 200 15124 "http://localhost:8080/student/add-student" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:21:56 +0000] "POST /interview/enroll-in-interview/636fd55b107292bcdc8a2bea HTTP/1.1" 302 106 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:21:56 +0000] "GET /dashboard HTTP/1.1" 200 16499 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:22:23 +0000] "GET /student/add-student HTTP/1.1" 304 - "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:22:47 +0000] "POST /student/create HTTP/1.1" 302 126 "http://localhost:8080/student/add-student" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:22:47 +0000] "GET /student/add-student HTTP/1.1" 304 - "http://localhost:8080/student/add-student" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:22:49 +0000] "GET /dashboard HTTP/1.1" 200 19101 "http://localhost:8080/student/add-student" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:22:54 +0000] "POST /interview/enroll-in-interview/636fd560107292bcdc8a2bee HTTP/1.1" 302 106 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:22:54 +0000] "GET /dashboard HTTP/1.1" 200 20472 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:23:00 +0000] "GET /interview/destroy/636fd560107292bcdc8a2bee HTTP/1.1" 302 106 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:23:00 +0000] "GET /dashboard HTTP/1.1" 200 15699 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:23:02 +0000] "GET /student/destroy/636fd667acafc85b0ea4af9b HTTP/1.1" 302 106 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:23:02 +0000] "GET /dashboard HTTP/1.1" 200 13097 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:23:16 +0000] "GET /student/destroy/636fd627acafc85b0ea4af75 HTTP/1.1" 302 106 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:23:16 +0000] "GET /dashboard HTTP/1.1" 200 9118 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:26:14 +0000] "GET /dashboard HTTP/1.1" 200 9118 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:26:19 +0000] "GET /sign-out HTTP/1.1" 302 46 "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+::1 - - [12/Nov/2022:17:26:19 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8080/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+[0mGET / [32m200[0m 37.477 ms - 2024[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 24.337 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 24.044 ms - 169[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 48.424 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 50.678 ms - 164[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 20.588 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 29.305 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 23.589 ms - 169[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 27.330 ms - 164[0m
+[0mGET /favicon.ico [33m404[0m 4.184 ms - 150[0m
+[0mPOST /create-session [36m302[0m 16.557 ms - 46[0m
+[0mGET / [36m304[0m 7.637 ms - -[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 12.956 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 10.891 ms - 164[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 12.349 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 12.989 ms - 169[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 16.444 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 16.535 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 16.248 ms - 164[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 15.629 ms - 169[0m
+[0mGET /sign-up [32m200[0m 14.929 ms - 2174[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 7.917 ms - 164[0m
+[0mGET /css/user_signup-49d6e61318.css [33m404[0m 10.584 ms - 169[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 11.296 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 11.086 ms - 164[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 9.255 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 15.633 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 15.693 ms - 164[0m
+[0mGET /css/user_signup-49d6e61318.css [33m404[0m 15.500 ms - 169[0m
+[0mPOST /create [36m302[0m 37.039 ms - 46[0m
+[0mGET / [36m304[0m 7.429 ms - -[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 9.236 ms - 169[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 6.513 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 9.422 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 9.900 ms - 164[0m
+[0mPOST /create-session [36m302[0m 15.766 ms - 64[0m
+[0mGET /dashboard [32m200[0m 22.685 ms - 2658[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 25.787 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 23.857 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 23.839 ms - 164[0m
+[0mGET /css/dashboard-e054d7d94d.css [33m404[0m 28.727 ms - 167[0m
+[0mGET /student/add-student [32m200[0m 21.171 ms - 4169[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 26.489 ms - 164[0m
+[0mGET /css/add-student-846a9c829d.css [33m404[0m 24.494 ms - 169[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 23.248 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 21.954 ms - 164[0m
+[0mGET /download [32m200[0m 18.228 ms - 178[0m
+[0mGET /student/add-student [36m304[0m 47.510 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 32.232 ms - 164[0m
+[0mGET /css/add-student-846a9c829d.css [33m404[0m 34.317 ms - 169[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 58.775 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 61.251 ms - 164[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 28.506 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 28.802 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 18.322 ms - 164[0m
+[0mGET /css/add-student-846a9c829d.css [33m404[0m 23.586 ms - 169[0m
+[0mGET /dashboard [36m304[0m 50.981 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 33.417 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 34.595 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 57.859 ms - 164[0m
+[0mGET /css/dashboard-e054d7d94d.css [33m404[0m 55.789 ms - 167[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 31.277 ms - 164[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 31.621 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 29.830 ms - 164[0m
+[0mGET /css/dashboard-e054d7d94d.css [33m404[0m 31.018 ms - 167[0m
+[0mGET /dashboard [36m304[0m 50.676 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 35.602 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 34.865 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 56.414 ms - 164[0m
+[0mGET /css/dashboard-e054d7d94d.css [33m404[0m 45.752 ms - 167[0m
+[0mGET /dashboard [36m304[0m 30.837 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 23.862 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 23.027 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 26.206 ms - 164[0m
+[0mGET /css/dashboard-e054d7d94d.css [33m404[0m 22.028 ms - 167[0m
+[0mGET /dashboard [36m304[0m 34.091 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 46.422 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 45.200 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 44.024 ms - 164[0m
+[0mGET /css/dashboard-e054d7d94d.css [33m404[0m 53.917 ms - 167[0m
+[0mGET /dashboard [36m304[0m 23.616 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 19.954 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 24.486 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 25.359 ms - 164[0m
+[0mGET /css/dashboard-e054d7d94d.css [33m404[0m 25.976 ms - 167[0m
+[0mGET /dashboard [36m304[0m 19.849 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 18.884 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 20.139 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 20.289 ms - 164[0m
+[0mGET /css/dashboard-e054d7d94d.css [33m404[0m 20.313 ms - 167[0m
+[0mGET /dashboard [36m304[0m 91.779 ms - -[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 30.412 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 27.637 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 49.381 ms - 164[0m
+[0mGET /css/dashboard-e054d7d94d.css [33m404[0m 38.748 ms - 167[0m
+[0mGET /css/layout-1fd63fd756.css [33m404[0m 41.663 ms - 164[0m
+[0mGET /css/header-e61b99b042.css [33m404[0m 42.061 ms - 164[0m
+[0mGET /css/footer-823fcd6190.css [33m404[0m 44.689 ms - 164[0m
+[0mGET /css/dashboard-e054d7d94d.css [33m404[0m 67.425 ms - 167[0m
+[0mGET / [32m200[0m 58.180 ms - 2652[0m
+[0mGET /assets/css/layout.css [33m404[0m 23.992 ms - 160[0m
+[0mGET /assets/css/user_signin.css [33m404[0m 26.203 ms - 165[0m
+[0mGET /assets/css/user_signup.css [33m404[0m 36.534 ms - 165[0m
+[0mGET /assets/css/add-interview.css [33m404[0m 19.738 ms - 167[0m
+[0mGET /assets/css/footer.css [33m404[0m 71.631 ms - 160[0m
+[0mGET /assets/css/header.css [33m404[0m 65.932 ms - 160[0m
+[0mGET /assets/css/update-profile.css [33m404[0m 99.915 ms - 168[0m
+[0mGET /assets/css/add-student.css [33m404[0m 28.328 ms - 165[0m
+[0mGET /assets/css/dashboard.css [33m404[0m 42.836 ms - 163[0m
+[0mGET /assets/css/edit-student.css [33m404[0m 16.775 ms - 166[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 12.004 ms - 169[0m
+[0mGET /assets/css/header.css [33m404[0m 11.578 ms - 160[0m
+[0mGET /assets/css/footer.css [33m404[0m 15.864 ms - 160[0m
+[0mGET /assets/css/update-profile.css [33m404[0m 15.129 ms - 168[0m
+[0mGET /assets/css/user_signin.css [33m404[0m 17.106 ms - 165[0m
+[0mGET /assets/css/user_signup.css [33m404[0m 22.481 ms - 165[0m
+[0mGET /assets/css/layout.css [33m404[0m 25.605 ms - 160[0m
+[0mGET /assets/css/add-student.css [33m404[0m 22.394 ms - 165[0m
+[0mGET /assets/css/dashboard.css [33m404[0m 19.925 ms - 163[0m
+[0mGET /assets/css/edit-student.css [33m404[0m 19.201 ms - 166[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 16.700 ms - 169[0m
+[0mGET /assets/css/add-interview.css [33m404[0m 18.396 ms - 167[0m
+[0mGET /favicon.ico [33m404[0m 2.825 ms - 150[0m
+[0mGET /assets/css/layout.css [33m404[0m 8.467 ms - 160[0m
+[0mGET /assets/css/header.css [33m404[0m 12.732 ms - 160[0m
+[0mGET /assets/css/footer.css [33m404[0m 12.650 ms - 160[0m
+[0mGET /assets/css/user_signin.css [33m404[0m 12.527 ms - 165[0m
+[0mGET /assets/css/user_signup.css [33m404[0m 18.515 ms - 165[0m
+[0mGET /assets/css/update-profile.css [33m404[0m 18.187 ms - 168[0m
+[0mGET /assets/css/add-interview.css [33m404[0m 29.615 ms - 167[0m
+[0mGET /assets/css/add-student.css [33m404[0m 27.423 ms - 165[0m
+[0mGET /assets/css/dashboard.css [33m404[0m 30.171 ms - 163[0m
+[0mGET /assets/css/edit-student.css [33m404[0m 29.712 ms - 166[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 16.951 ms - 169[0m
+[0mGET / [32m200[0m 13.512 ms - 3733[0m
+[0mGET /assets/css/layout.css [33m404[0m 6.435 ms - 160[0m
+[0mGET /assets/css/header.css [33m404[0m 10.792 ms - 160[0m
+[0mGET /assets/css/update-profile.css [33m404[0m 13.496 ms - 168[0m
+[0mGET /assets/css/footer.css [33m404[0m 12.901 ms - 160[0m
+[0mGET /assets/css/user_signin.css [33m404[0m 12.448 ms - 165[0m
+[0mGET /assets/css/user_signup.css [33m404[0m 17.985 ms - 165[0m
+[0mGET /assets/css/add-interview.css [33m404[0m 8.711 ms - 167[0m
+[0mGET /assets/css/add-student.css [33m404[0m 18.467 ms - 165[0m
+[0mGET /assets/css/dashboard.css [33m404[0m 14.683 ms - 163[0m
+[0mGET /assets/css/edit-student.css [33m404[0m 15.188 ms - 166[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 13.547 ms - 169[0m
+[0mGET /assets/css/layout.css [33m404[0m 11.439 ms - 160[0m
+[0mGET /assets/css/header.css [33m404[0m 20.402 ms - 160[0m
+[0mGET /assets/css/footer.css [33m404[0m 19.577 ms - 160[0m
+[0mGET /assets/css/user_signin.css [33m404[0m 20.985 ms - 165[0m
+[0mGET /assets/css/user_signup.css [33m404[0m 21.351 ms - 165[0m
+[0mGET /assets/css/update-profile.css [33m404[0m 21.110 ms - 168[0m
+[0mGET /assets/css/add-interview.css [33m404[0m 19.442 ms - 167[0m
+[0mGET /assets/css/dashboard.css [33m404[0m 18.959 ms - 163[0m
+[0mGET /assets/css/edit-student.css [33m404[0m 16.034 ms - 166[0m
+[0mGET /assets/css/add-student.css [33m404[0m 43.671 ms - 165[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 11.680 ms - 169[0m
+[0mGET / [32m200[0m 43.370 ms - 3733[0m
+[0mGET /assets/css/footer.css [32m200[0m 53.064 ms - 402[0m
+[0mGET /assets/css/user_signup.css [32m200[0m 51.444 ms - 962[0m
+[0mGET /assets/css/layout.css [32m200[0m 52.533 ms - 169[0m
+[0mGET /assets/css/header.css [32m200[0m 116.411 ms - 565[0m
+[0mGET /assets/css/update-profile.css [32m200[0m 63.301 ms - 1220[0m
+[0mGET /assets/css/add-interview.css [32m200[0m 68.973 ms - 770[0m
+[0mGET /assets/css/add-student.css [32m200[0m 79.210 ms - 1168[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 25.940 ms - 169[0m
+[0mGET /assets/css/dashboard.css [32m200[0m 90.033 ms - 7098[0m
+[0mGET /assets/css/edit-student.css [32m200[0m 82.211 ms - 1477[0m
+[0mGET /assets/css/user_signin.css [32m200[0m 116.541 ms - 996[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 6.145 ms - 169[0m
+[0mGET / [32m200[0m 33.503 ms - 3733[0m
+[0mGET /assets/css/layout.css [33m404[0m 16.487 ms - 160[0m
+[0mGET /assets/css/user_signin.css [33m404[0m 48.478 ms - 165[0m
+[0mGET /assets/css/header.css [33m404[0m 92.133 ms - 160[0m
+[0mGET /assets/css/add-interview.css [33m404[0m 21.974 ms - 167[0m
+[0mGET /assets/css/footer.css [33m404[0m 89.676 ms - 160[0m
+[0mGET /assets/css/user_signup.css [33m404[0m 56.684 ms - 165[0m
+[0mGET /assets/css/update-profile.css [33m404[0m 107.306 ms - 168[0m
+[0mGET /assets/css/add-student.css [33m404[0m 28.550 ms - 165[0m
+[0mGET /assets/css/dashboard.css [33m404[0m 56.630 ms - 163[0m
+[0mGET /assets/css/edit-student.css [33m404[0m 48.794 ms - 166[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 14.251 ms - 169[0m
+[0mGET /assets/css/layout.css [33m404[0m 11.699 ms - 160[0m
+[0mGET /assets/css/header.css [33m404[0m 22.304 ms - 160[0m
+[0mGET /assets/css/footer.css [33m404[0m 26.099 ms - 160[0m
+[0mGET /assets/css/user_signin.css [33m404[0m 20.030 ms - 165[0m
+[0mGET /assets/css/user_signup.css [33m404[0m 21.401 ms - 165[0m
+[0mGET /assets/css/update-profile.css [33m404[0m 57.209 ms - 168[0m
+[0mGET /assets/css/add-interview.css [33m404[0m 23.682 ms - 167[0m
+[0mGET /assets/css/add-student.css [33m404[0m 30.859 ms - 165[0m
+[0mGET / [32m200[0m 16.064 ms - 3902[0m
+[0mGET /assets/css/layout.css [33m404[0m 10.876 ms - 160[0m
+[0mGET /assets/css/header.css [33m404[0m 6.746 ms - 160[0m
+[0mGET /assets/css/footer.css [33m404[0m 14.297 ms - 160[0m
+[0mGET /assets/css/user_signin.css [33m404[0m 6.365 ms - 165[0m
+[0mGET /assets/css/user_signup.css [33m404[0m 7.304 ms - 165[0m
+[0mGET /assets/css/update-profile.css [33m404[0m 9.704 ms - 168[0m
+[0mGET /assets/css/add-interview.css [33m404[0m 14.681 ms - 167[0m
+[0mGET /assets/css/add-student.css [33m404[0m 13.393 ms - 165[0m
+[0mGET /assets/css/dashboard.css [33m404[0m 14.380 ms - 163[0m
+[0mGET /assets/css/edit-student.css [33m404[0m 15.286 ms - 166[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 8.932 ms - 169[0m
+[0mGET /assets/css/layout.css [33m404[0m 5.656 ms - 160[0m
+[0mGET /assets/css/header.css [33m404[0m 3.107 ms - 160[0m
+[0mGET /assets/css/footer.css [33m404[0m 4.887 ms - 160[0m
+[0mGET /assets/css/user_signin.css [33m404[0m 4.048 ms - 165[0m
+[0mGET /assets/css/user_signup.css [33m404[0m 7.207 ms - 165[0m
+[0mGET /assets/css/update-profile.css [33m404[0m 8.009 ms - 168[0m
+[0mGET /assets/css/add-interview.css [33m404[0m 3.145 ms - 167[0m
+[0mGET /assets/css/add-student.css [33m404[0m 3.956 ms - 165[0m
+[0mGET /assets/css/dashboard.css [33m404[0m 4.885 ms - 163[0m
+[0mGET /assets/css/edit-student.css [33m404[0m 5.040 ms - 166[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 3.428 ms - 169[0m
+[0mGET / [32m200[0m 32.720 ms - 3902[0m
+[0mGET /assets/css/user_signin.css [33m404[0m 36.277 ms - 165[0m
+[0mGET /assets/css/user_signup.css [33m404[0m 41.591 ms - 165[0m
+[0mGET /assets/css/header.css [33m404[0m 59.381 ms - 160[0m
+[0mGET /assets/css/footer.css [33m404[0m 88.057 ms - 160[0m
+[0mGET /assets/css/layout.css [33m404[0m 29.620 ms - 160[0m
+[0mGET /assets/css/update-profile.css [33m404[0m 35.081 ms - 168[0m
+[0mGET /assets/css/add-interview.css [33m404[0m 13.362 ms - 167[0m
+[0mGET /assets/css/add-student.css [33m404[0m 16.299 ms - 165[0m
+[0mGET /assets/css/edit-student.css [33m404[0m 15.058 ms - 166[0m
+[0mGET /assets/css/dashboard.css [33m404[0m 59.838 ms - 163[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 28.786 ms - 169[0m
+[0mGET /assets/css/layout.css [33m404[0m 5.996 ms - 160[0m
+[0mGET /assets/css/header.css [33m404[0m 5.984 ms - 160[0m
+[0mGET /assets/css/footer.css [33m404[0m 7.353 ms - 160[0m
+[0mGET /assets/css/user_signin.css [33m404[0m 6.991 ms - 165[0m
+[0mGET /assets/css/user_signup.css [33m404[0m 7.752 ms - 165[0m
+[0mGET /assets/css/update-profile.css [33m404[0m 6.636 ms - 168[0m
+[0mGET /assets/css/add-interview.css [33m404[0m 5.206 ms - 167[0m
+[0mGET /assets/css/add-student.css [33m404[0m 6.271 ms - 165[0m
+[0mGET /assets/css/dashboard.css [33m404[0m 6.590 ms - 163[0m
+[0mGET /assets/css/edit-student.css [33m404[0m 4.164 ms - 166[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 5.883 ms - 169[0m
+[0mGET /favicon.ico [33m404[0m 4.031 ms - 150[0m
+[0mGET / [32m200[0m 11.594 ms - 3912[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 6.119 ms - 169[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 4.330 ms - 169[0m
+[0mGET /favicon.ico [33m404[0m 3.455 ms - 150[0m
+[0mGET / [32m200[0m 29.607 ms - 3912[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 10.090 ms - 169[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 5.406 ms - 169[0m
+[0mGET / [32m200[0m 6.946 ms - 3912[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 7.149 ms - 169[0m
+[0mGET /css/user_signin-0ea267580e.css [33m404[0m 3.620 ms - 169[0m
+[0mGET /favicon.ico [33m404[0m 4.814 ms - 150[0m
+[0mGET / [32m200[0m 13.236 ms - 3921[0m
+[0mGET /favicon.ico [33m404[0m 4.179 ms - 150[0m
+[0mGET / [32m200[0m 8.192 ms - 3921[0m
+[0mGET /favicon.ico [33m404[0m 5.829 ms - 150[0m
+[0mGET / [32m200[0m 11.510 ms - 2851[0m
+[0mGET /favicon.ico [33m404[0m 5.536 ms - 150[0m
+[0mGET / [32m200[0m 7.507 ms - 2851[0m
+[0mGET /favicon.ico [33m404[0m 7.713 ms - 150[0m
+[0mGET / [32m200[0m 8.780 ms - 2841[0m
+[0mGET /favicon.ico [33m404[0m 5.045 ms - 150[0m
+[0mGET / [32m200[0m 8.157 ms - 2841[0m
+[0mGET /assets/css/layout.css [33m404[0m 6.196 ms - 160[0m
+[0mGET /assets/css/layout.css [33m404[0m 11.003 ms - 160[0m
+[0mGET / [32m200[0m 22.208 ms - 2832[0m
+[0mGET /favicon.ico [33m404[0m 8.512 ms - 150[0m
+[0mGET / [32m200[0m 10.536 ms - 2832[0m
+[0mGET / [32m200[0m 8.364 ms - 2832[0m
+[0mGET / [32m200[0m 12.342 ms - 2832[0m
+[0mGET / [32m200[0m 13.301 ms - 2832[0m
+[0mGET / [32m200[0m 36.035 ms - 2832[0m
+[0mGET /favicon.ico [33m404[0m 8.928 ms - 150[0m
+[0mGET / [32m200[0m 13.434 ms - 2822[0m
+[0mGET /assets/css/layout.css [32m200[0m 39.896 ms - 169[0m
+[0mGET /assets/css/user_signin.css [32m200[0m 41.742 ms - 996[0m
+[0mGET /assets/css/user_signup.css [32m200[0m 49.610 ms - 962[0m
+[0mGET /assets/css/update-profile.css [32m200[0m 60.956 ms - 1220[0m
+[0mGET /assets/css/add-interview.css [32m200[0m 85.989 ms - 770[0m
+[0mGET /assets/css/header.css [32m200[0m 74.155 ms - 565[0m
+[0mGET /assets/css/footer.css [32m200[0m 74.138 ms - 402[0m
+[0mGET /assets/css/add-student.css [32m200[0m 82.963 ms - 1168[0m
+[0mGET /assets/css/dashboard.css [32m200[0m 53.644 ms - 7098[0m
+[0mGET /assets/css/edit-student.css [32m200[0m 42.042 ms - 1477[0m
+[0mGET /favicon.ico [33m404[0m 6.445 ms - 150[0m
+[0mPOST /create-session [36m302[0m 13.814 ms - 46[0m
+[0mGET / [36m304[0m 12.087 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 14.681 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 15.562 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 16.892 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 18.300 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 19.228 ms - -[0m
+[0mGET /assets/css/layout.css [36m304[0m 18.238 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 15.180 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 15.610 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 15.176 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 15.693 ms - -[0m
+[0mGET /sign-up [32m200[0m 13.884 ms - 2972[0m
+[0mGET /assets/css/layout.css [36m304[0m 10.034 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 14.537 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 17.186 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 14.100 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 13.979 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 16.416 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 19.984 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 9.947 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 18.102 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 20.948 ms - -[0m
+[0mPOST /create [36m302[0m 23.461 ms - 46[0m
+[0mGET / [36m304[0m 10.460 ms - -[0m
+[0mGET /assets/css/layout.css [36m304[0m 6.182 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 28.968 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 29.846 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 25.817 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 27.397 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 27.916 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 19.386 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 15.435 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 15.101 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 12.868 ms - -[0m
+[0mPOST /create-session [36m302[0m 16.646 ms - 64[0m
+[0mGET /dashboard [32m200[0m 23.828 ms - 3446[0m
+[0mGET /assets/css/layout.css [36m304[0m 22.374 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 42.394 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 47.045 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 47.407 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 55.791 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 35.843 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 90.871 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 29.457 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 37.342 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 32.687 ms - -[0m
+[0mGET /assets/css/layout.css [36m304[0m 30.881 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 31.316 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 33.542 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 31.589 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 41.514 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 32.291 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 25.082 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 25.529 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 23.385 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 17.881 ms - -[0m
+[0mGET /student/add-student [32m200[0m 15.590 ms - 4957[0m
+[0mGET /assets/css/layout.css [36m304[0m 41.310 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 35.737 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 39.468 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 39.414 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 40.032 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 45.488 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 29.149 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 36.389 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 19.899 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 20.090 ms - -[0m
+[0mPOST /student/create [36m302[0m 12.684 ms - 126[0m
+[0mGET /student/add-student [36m304[0m 13.480 ms - -[0m
+[0mGET /assets/css/layout.css [36m304[0m 31.891 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 36.695 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 37.979 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 38.351 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 41.632 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 34.463 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 29.109 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 22.387 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 23.035 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 25.222 ms - -[0m
+[0mGET /dashboard [32m200[0m 31.562 ms - 5999[0m
+[0mGET /assets/css/layout.css [36m304[0m 37.654 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 38.316 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 37.095 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 37.645 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 37.163 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 48.212 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 37.631 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 26.662 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 20.705 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 20.917 ms - -[0m
+[0mGET /download [32m200[0m 23.088 ms - 178[0m
+[0mGET /interview/add-interview [32m200[0m 21.092 ms - 3712[0m
+[0mGET /assets/css/layout.css [36m304[0m 17.877 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 39.253 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 46.178 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 47.606 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 62.379 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 60.440 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 41.133 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 32.788 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 22.399 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 24.740 ms - -[0m
+[0mPOST /interview/create [36m302[0m 8.568 ms - 134[0m
+[0mGET /interview/add-interview [36m304[0m 11.050 ms - -[0m
+[0mGET /assets/css/layout.css [36m304[0m 38.643 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 31.355 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 36.789 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 33.617 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 33.607 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 56.399 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 20.091 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 31.839 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 23.666 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 32.594 ms - -[0m
+[0mGET /dashboard [32m200[0m 22.700 ms - 8181[0m
+[0mGET /assets/css/layout.css [36m304[0m 36.724 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 37.588 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 36.910 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 38.896 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 39.462 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 40.273 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 35.367 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 38.098 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 31.123 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 34.678 ms - -[0m
+[0mPOST /interview/enroll-in-interview/64bdd5550597adf3dd2d0f63 [36m302[0m 23.505 ms - 106[0m
+[0mGET /dashboard [32m200[0m 23.924 ms - 9514[0m
+[0mGET /assets/css/layout.css [36m304[0m 22.073 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 43.740 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 43.625 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 50.220 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 48.097 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 48.083 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 27.365 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 25.979 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 29.292 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 21.247 ms - -[0m
+[0mGET /download [32m200[0m 20.611 ms - 315[0m
+[0mGET / [32m200[0m 30.832 ms - 2822[0m
+[0mGET /assets/css/layout.css [36m304[0m 33.816 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 29.963 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 41.460 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 65.459 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 32.950 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 50.717 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 35.818 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 23.262 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 14.874 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 44.151 ms - -[0m
+[0mGET /favicon.ico [33m404[0m 7.970 ms - 150[0m
+[0mGET / [36m304[0m 22.450 ms - -[0m
+[0mGET /assets/css/layout.css [36m304[0m 16.432 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 25.605 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 24.714 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 23.862 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 23.085 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 21.321 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 24.828 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 13.101 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 13.602 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 11.821 ms - -[0m
+[0mGET /profile [36m302[0m 14.007 ms - 46[0m
+[0mGET / [36m304[0m 7.675 ms - -[0m
+[0mGET /assets/css/layout.css [36m304[0m 15.821 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 15.478 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 15.464 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 17.818 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 18.065 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 17.848 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 16.175 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 16.276 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 13.672 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 10.742 ms - -[0m
+[0mGET /profile [36m302[0m 3.827 ms - 46[0m
+[0mGET / [36m304[0m 5.812 ms - -[0m
+[0mGET /assets/css/layout.css [36m304[0m 25.115 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 15.092 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 16.945 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 17.857 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 18.680 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 19.840 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 12.530 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 13.181 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 14.206 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 12.515 ms - -[0m
+[0mPOST /create-session [36m302[0m 13.313 ms - 64[0m
+[0mGET /dashboard [32m200[0m 38.591 ms - 9514[0m
+[0mGET /assets/css/layout.css [36m304[0m 23.028 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 38.561 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 43.051 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 42.180 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 40.850 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 59.141 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 28.618 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 23.962 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 19.221 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 18.457 ms - -[0m
+[0mGET /profile [32m200[0m 23.716 ms - 4124[0m
+[0mGET /assets/css/layout.css [36m304[0m 35.125 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 36.512 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 39.647 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 40.235 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 41.652 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 47.018 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 27.359 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 35.392 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 21.361 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 26.237 ms - -[0m
+[0mGET /dashboard [36m304[0m 35.603 ms - -[0m
+[0mGET /assets/css/layout.css [36m304[0m 44.700 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 40.259 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 39.345 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 33.805 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 38.136 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 33.475 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 25.316 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 26.767 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 26.560 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 24.384 ms - -[0m
+[0mGET /student/edit-student/64bdd5260597adf3dd2d0f3b [32m200[0m 25.875 ms - 5286[0m
+[0mGET /student/assets/css/layout.css [33m404[0m 36.125 ms - 168[0m
+[0mGET /student/assets/css/header.css [33m404[0m 41.637 ms - 168[0m
+[0mGET /student/assets/css/footer.css [33m404[0m 38.656 ms - 168[0m
+[0mGET /student/assets/css/user_signin.css [33m404[0m 38.691 ms - 173[0m
+[0mGET /student/assets/css/user_signup.css [33m404[0m 38.224 ms - 173[0m
+[0mGET /student/assets/css/update-profile.css [33m404[0m 41.480 ms - 176[0m
+[0mGET /student/assets/css/add-interview.css [33m404[0m 17.835 ms - 175[0m
+[0mGET /student/assets/css/add-student.css [33m404[0m 21.844 ms - 173[0m
+[0mGET /student/assets/css/dashboard.css [33m404[0m 25.343 ms - 171[0m
+[0mGET /student/assets/css/edit-student.css [33m404[0m 25.219 ms - 174[0m
+[0mGET /student/assets/css/layout.css [33m404[0m 28.551 ms - 168[0m
+[0mGET /student/assets/css/footer.css [33m404[0m 26.000 ms - 168[0m
+[0mGET /student/assets/css/user_signin.css [33m404[0m 34.120 ms - 173[0m
+[0mGET /student/assets/css/header.css [33m404[0m 34.834 ms - 168[0m
+[0mGET /student/assets/css/user_signup.css [33m404[0m 38.529 ms - 173[0m
+[0mGET /student/assets/css/update-profile.css [33m404[0m 61.013 ms - 176[0m
+[0mGET /student/assets/css/add-interview.css [33m404[0m 23.851 ms - 175[0m
+[0mGET /student/assets/css/add-student.css [33m404[0m 20.730 ms - 173[0m
+[0mGET /student/assets/css/dashboard.css [33m404[0m 21.341 ms - 171[0m
+[0mGET /student/assets/css/edit-student.css [33m404[0m 19.485 ms - 174[0m
+[0mGET /student/edit-student/64bdd5260597adf3dd2d0f3b [32m200[0m 20.934 ms - 5286[0m
+[0mGET /student/assets/css/layout.css [33m404[0m 39.622 ms - 168[0m
+[0mGET /student/assets/css/header.css [33m404[0m 42.653 ms - 168[0m
+[0mGET /student/assets/css/user_signup.css [33m404[0m 39.192 ms - 173[0m
+[0mGET /student/assets/css/footer.css [33m404[0m 38.622 ms - 168[0m
+[0mGET /student/assets/css/user_signin.css [33m404[0m 41.782 ms - 173[0m
+[0mGET /student/assets/css/update-profile.css [33m404[0m 45.550 ms - 176[0m
+[0mGET /student/assets/css/add-interview.css [33m404[0m 29.569 ms - 175[0m
+[0mGET /student/assets/css/add-student.css [33m404[0m 31.580 ms - 173[0m
+[0mGET /student/assets/css/dashboard.css [33m404[0m 31.117 ms - 171[0m
+[0mGET /student/assets/css/edit-student.css [33m404[0m 32.212 ms - 174[0m
+[0mGET /student/assets/css/layout.css [33m404[0m 63.201 ms - 168[0m
+[0mGET /student/assets/css/header.css [33m404[0m 65.778 ms - 168[0m
+[0mGET /student/assets/css/footer.css [33m404[0m 64.889 ms - 168[0m
+[0mGET /student/assets/css/user_signin.css [33m404[0m 63.481 ms - 173[0m
+[0mGET /student/assets/css/user_signup.css [33m404[0m 64.985 ms - 173[0m
+[0mGET /student/assets/css/update-profile.css [33m404[0m 64.769 ms - 176[0m
+[0mGET /student/assets/css/add-interview.css [33m404[0m 32.947 ms - 175[0m
+[0mGET /student/assets/css/add-student.css [33m404[0m 24.389 ms - 173[0m
+[0mGET /student/assets/css/dashboard.css [33m404[0m 25.081 ms - 171[0m
+[0mGET /student/assets/css/edit-student.css [33m404[0m 29.271 ms - 174[0m
+[0mGET /assets/css/layout.css [36m304[0m 43.683 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 41.884 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 32.025 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 34.470 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 33.953 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 37.743 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 40.796 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 27.628 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 35.348 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 34.793 ms - -[0m
+[0mGET /dashboard [32m200[0m 23.977 ms - 9514[0m
+[0mGET /assets/css/layout.css [32m200[0m 47.830 ms - 169[0m
+[0mGET /assets/css/header.css [32m200[0m 45.546 ms - 565[0m
+[0mGET /assets/css/footer.css [32m200[0m 44.707 ms - 402[0m
+[0mGET /assets/css/user_signin.css [32m200[0m 44.755 ms - 996[0m
+[0mGET /assets/css/user_signup.css [32m200[0m 46.049 ms - 962[0m
+[0mGET /assets/css/update-profile.css [32m200[0m 44.305 ms - 1220[0m
+[0mGET /assets/css/add-interview.css [32m200[0m 38.030 ms - 770[0m
+[0mGET /assets/css/add-student.css [32m200[0m 38.336 ms - 1168[0m
+[0mGET /assets/css/dashboard.css [32m200[0m 31.405 ms - 7098[0m
+[0mGET /assets/css/edit-student.css [32m200[0m 30.658 ms - 1477[0m
+[0mGET /favicon.ico [33m404[0m 7.754 ms - 150[0m
+[0mGET /student/add-student [32m200[0m 13.473 ms - 4957[0m
+[0mGET /assets/css/layout.css [32m200[0m 57.795 ms - 169[0m
+[0mGET /assets/css/header.css [32m200[0m 57.915 ms - 565[0m
+[0mGET /assets/css/footer.css [32m200[0m 58.472 ms - 402[0m
+[0mGET /assets/css/user_signin.css [32m200[0m 59.107 ms - 996[0m
+[0mGET /assets/css/user_signup.css [32m200[0m 54.661 ms - 962[0m
+[0mGET /assets/css/update-profile.css [32m200[0m 44.374 ms - 1220[0m
+[0mGET /assets/css/add-interview.css [32m200[0m 36.100 ms - 770[0m
+[0mGET /assets/css/add-student.css [32m200[0m 36.862 ms - 1168[0m
+[0mGET /assets/css/dashboard.css [32m200[0m 34.021 ms - 7098[0m
+[0mGET /assets/css/edit-student.css [32m200[0m 34.521 ms - 1477[0m
+[0mGET /assets/css/layout.css [36m304[0m 53.417 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 49.135 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 44.181 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 42.090 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 30.883 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 28.488 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 27.087 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 45.557 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 45.582 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 46.762 ms - -[0m
+[0mGET /assets/css/layout.css [36m304[0m 35.660 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 39.870 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 39.984 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 34.007 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 31.988 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 33.993 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 36.486 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 20.045 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 27.184 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 28.666 ms - -[0m
+[0mGET /student/add-student [36m304[0m 13.834 ms - -[0m
+[0mGET /assets/css/layout.css [36m304[0m 22.096 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 32.855 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 21.326 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 26.046 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 25.289 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 23.070 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 31.784 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 22.840 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 25.733 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 13.899 ms - -[0m
+[0mGET /dashboard [36m304[0m 25.387 ms - -[0m
+[0mGET /assets/css/layout.css [36m304[0m 4.503 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 29.486 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 30.313 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 30.620 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 30.551 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 38.017 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 31.825 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 16.842 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 15.732 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 18.198 ms - -[0m
+[0mGET /dashboard [36m304[0m 44.852 ms - -[0m
+[0mGET /assets/css/layout.css [36m304[0m 42.600 ms - -[0m
+[0mGET /assets/css/header.css [36m304[0m 49.914 ms - -[0m
+[0mGET /assets/css/footer.css [36m304[0m 38.916 ms - -[0m
+[0mGET /assets/css/user_signin.css [36m304[0m 36.608 ms - -[0m
+[0mGET /assets/css/user_signup.css [36m304[0m 35.422 ms - -[0m
+[0mGET /assets/css/update-profile.css [36m304[0m 48.509 ms - -[0m
+[0mGET /assets/css/add-interview.css [36m304[0m 30.689 ms - -[0m
+[0mGET /assets/css/add-student.css [36m304[0m 17.573 ms - -[0m
+[0mGET /assets/css/dashboard.css [36m304[0m 22.721 ms - -[0m
+[0mGET /assets/css/edit-student.css [36m304[0m 22.284 ms - -[0m
+[0mGET /student/edit-student/64bdd5260597adf3dd2d0f3b [36m304[0m 13.350 ms - -[0m
+[0mGET /student/assets/css/layout.css [33m404[0m 24.154 ms - 168[0m
+[0mGET /student/assets/css/header.css [33m404[0m 24.896 ms - 168[0m
+[0mGET /student/assets/css/footer.css [33m404[0m 27.133 ms - 168[0m
+[0mGET /student/assets/css/add-interview.css [33m404[0m 30.911 ms - 175[0m
+[0mGET /student/assets/css/add-student.css [33m404[0m 33.618 ms - 173[0m
+[0mGET /student/assets/css/dashboard.css [33m404[0m 34.995 ms - 171[0m
+[0mGET /student/assets/css/user_signin.css [33m404[0m 39.435 ms - 173[0m
+[0mGET /student/assets/css/user_signup.css [33m404[0m 35.406 ms - 173[0m
+[0mGET /student/assets/css/update-profile.css [33m404[0m 34.612 ms - 176[0m
+[0mGET /student/assets/css/edit-student.css [33m404[0m 34.054 ms - 174[0m
+[0mGET /student/edit-student/64bdd5260597adf3dd2d0f3b [32m200[0m 14.392 ms - 5295[0m
+[0mGET /student/assets/css/layout.css [33m404[0m 35.273 ms - 168[0m
+[0mGET /student/assets/css/header.css [33m404[0m 41.647 ms - 168[0m
+[0mGET /student/assets/css/user_signin.css [33m404[0m 33.390 ms - 173[0m
+[0mGET /student/assets/css/user_signup.css [33m404[0m 35.413 ms - 173[0m
+[0mGET /student/assets/css/update-profile.css [33m404[0m 37.347 ms - 176[0m
+[0mGET /student/assets/css/footer.css [33m404[0m 37.194 ms - 168[0m
+[0mGET /student/assets/css/add-interview.css [33m404[0m 24.978 ms - 175[0m
+[0mGET /student/assets/css/add-student.css [33m404[0m 25.700 ms - 173[0m
+[0mGET /student/assets/css/dashboard.css [33m404[0m 24.409 ms - 171[0m
+[0mGET /student/assets/css/edit-student.css [33m404[0m 20.649 ms - 174[0m
+[0mGET /student/edit-student/64bdd5260597adf3dd2d0f3b [32m200[0m 22.377 ms - 5295[0m
+[0mGET /student/assets/css/layout.css [33m404[0m 30.919 ms - 168[0m
+[0mGET /student/assets/css/header.css [33m404[0m 32.474 ms - 168[0m
+[0mGET /student/assets/css/footer.css [33m404[0m 31.116 ms - 168[0m
+[0mGET /student/assets/css/user_signin.css [33m404[0m 32.749 ms - 173[0m
+[0mGET /student/assets/css/update-profile.css [33m404[0m 32.411 ms - 176[0m
+[0mGET /student/assets/css/user_signup.css [33m404[0m 30.793 ms - 173[0m
+[0mGET /student/assets/css/add-interview.css [33m404[0m 37.367 ms - 175[0m
+[0mGET /student/assets/css/add-student.css [33m404[0m 30.851 ms - 173[0m
+[0mGET /student/assets/css/dashboard.css [33m404[0m 42.383 ms - 171[0m
+[0mGET /student/assets/css/edit-student.css [33m404[0m 37.155 ms - 174[0m
+[0mGET /student/assets/css/header.css [33m404[0m 35.331 ms - 168[0m
+[0mGET /student/assets/css/layout.css [33m404[0m 30.844 ms - 168[0m
+[0mGET /student/assets/css/footer.css [33m404[0m 36.833 ms - 168[0m
+[0mGET /student/assets/css/user_signin.css [33m404[0m 34.555 ms - 173[0m
+[0mGET /student/assets/css/user_signup.css [33m404[0m 32.198 ms - 173[0m
+[0mGET /student/assets/css/update-profile.css [33m404[0m 44.916 ms - 176[0m
+[0mGET /student/assets/css/add-interview.css [33m404[0m 11.373 ms - 175[0m
+[0mGET /student/assets/css/add-student.css [33m404[0m 11.943 ms - 173[0m
+[0mGET /favicon.ico [33m404[0m 5.762 ms - 150[0m
+[0mGET /student/edit-student/64bdd5260597adf3dd2d0f3b [32m200[0m 19.626 ms - 5373[0m
+[0mGET /student/assets/css/layout.css [33m404[0m 37.850 ms - 168[0m
+[0mGET /student/assets/css/header.css [33m404[0m 31.490 ms - 168[0m
+[0mGET /student/assets/css/footer.css [33m404[0m 33.100 ms - 168[0m
+[0mGET /student/assets/css/user_signin.css [33m404[0m 34.304 ms - 173[0m
+[0mGET /student/assets/css/user_signup.css [33m404[0m 38.065 ms - 173[0m
+[0mGET /student/assets/css/update-profile.css [33m404[0m 34.034 ms - 176[0m
+[0mGET /student/assets/css/dashboard.css [33m404[0m 22.013 ms - 171[0m
+[0mGET /student/assets/css/add-interview.css [33m404[0m 21.115 ms - 175[0m
+[0mGET /student/assets/css/add-student.css [33m404[0m 23.743 ms - 173[0m
+[0mGET /student/assets/css/edit-student.css [33m404[0m 21.546 ms - 174[0m
+[0mGET /student/assets/css/layout.css [33m404[0m 29.198 ms - 168[0m
+[0mGET /student/assets/css/header.css [33m404[0m 38.302 ms - 168[0m
+[0mGET /student/assets/css/user_signin.css [33m404[0m 33.001 ms - 173[0m
+[0mGET /student/assets/css/user_signup.css [33m404[0m 33.674 ms - 173[0m
+[0mGET /student/assets/css/add-interview.css [33m404[0m 37.348 ms - 175[0m
+[0mGET /student/assets/css/footer.css [33m404[0m 38.654 ms - 168[0m
+[0mGET /student/assets/css/add-student.css [33m404[0m 18.698 ms - 173[0m
+[0mGET /student/assets/css/dashboard.css [33m404[0m 17.086 ms - 171[0m
+[0mGET /student/assets/css/edit-student.css [33m404[0m 16.265 ms - 174[0m
+[0mGET /student/assets/css/update-profile.css [33m404[0m 16.091 ms - 176[0m
+[0mGET /student/assets/css/layout.css [33m404[0m 28.349 ms - 168[0m
+[0mGET /student/assets/css/header.css [33m404[0m 34.534 ms - 168[0m
+[0mGET /student/assets/css/user_signin.css [33m404[0m 28.333 ms - 173[0m
+[0mGET /student/assets/css/update-profile.css [33m404[0m 28.714 ms - 176[0m
+[0mGET /student/assets/css/footer.css [33m404[0m 31.992 ms - 168[0m
+[0mGET /student/assets/css/add-student.css [33m404[0m 32.711 ms - 173[0m
+[0mGET /student/assets/css/user_signup.css [33m404[0m 21.013 ms - 173[0m
+[0mGET /student/assets/css/dashboard.css [33m404[0m 21.770 ms - 171[0m
+[0mGET /student/assets/css/add-interview.css [33m404[0m 18.342 ms - 175[0m
+[0mGET /student/assets/css/edit-student.css [33m404[0m 26.300 ms - 174[0m
+[0mGET /student/edit-student/64bdd5260597adf3dd2d0f3b [32m200[0m 16.342 ms - 5373[0m
+[0mGET /student/assets/css/layout.css [33m404[0m 36.627 ms - 168[0m
+[0mGET /student/assets/css/header.css [33m404[0m 29.738 ms - 168[0m
+[0mGET /student/assets/css/footer.css [33m404[0m 32.429 ms - 168[0m
+[0mGET /student/assets/css/user_signin.css [33m404[0m 33.790 ms - 173[0m
+[0mGET /student/assets/css/user_signup.css [33m404[0m 36.503 ms - 173[0m
+[0mGET /student/assets/css/update-profile.css [33m404[0m 36.416 ms - 176[0m
+[0mGET /student/assets/css/add-interview.css [33m404[0m 39.999 ms - 175[0m
+[0mGET /student/assets/css/add-student.css [33m404[0m 33.332 ms - 173[0m
+[0mGET /student/assets/css/dashboard.css [33m404[0m 37.629 ms - 171[0m
+[0mGET /student/assets/css/edit-student.css [33m404[0m 36.179 ms - 174[0m
+[0mGET /student/assets/css/layout.css [33m404[0m 45.039 ms - 168[0m
+[0mGET /student/assets/css/header.css [33m404[0m 43.614 ms - 168[0m
+[0mGET /student/assets/css/footer.css [33m404[0m 35.936 ms - 168[0m
+[0mGET /student/assets/css/user_signin.css [33m404[0m 34.141 ms - 173[0m
+[0mGET /student/assets/css/user_signup.css [33m404[0m 30.471 ms - 173[0m
+[0mGET /student/assets/css/update-profile.css [33m404[0m 32.278 ms - 176[0m
+[0mGET /student/assets/css/add-interview.css [33m404[0m 39.969 ms - 175[0m
+[0mGET /student/assets/css/add-student.css [33m404[0m 50.677 ms - 173[0m
+[0mGET /student/assets/css/dashboard.css [33m404[0m 47.691 ms - 171[0m
+[0mGET /student/assets/css/edit-student.css [33m404[0m 42.523 ms - 174[0m
+[0mGET /favicon.ico [33m404[0m 6.426 ms - 150[0m
