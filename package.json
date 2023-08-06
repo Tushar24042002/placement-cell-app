@@ -4,11 +4,11 @@
   "description": "placement cell backend project",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prod_start": "SET NODE_ENV=production & nodemon index.js"
+    "prod_start": "SET NODE_ENV=production & node index.js"
   },
-  "author": "Tejashwa Rajvardhan",
+  "author": "Tushar",
   "license": "ISC",
   "dependencies": {
     "connect-flash": "^0.1.1",
