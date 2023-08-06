@@ -64,7 +64,7 @@ app.use(session({
   saveUninitialized: false,
   resave: false,
   store: MongoStore.create({
-    mongoUrl:'mongodb://localhost/placement_cell',
+    mongoUrl:'mongodb+srv://tushargupta24042002:Tushar24042002@cluster0.h9cmx1x.mongodb.net/placementapp?retryWrites=true&w=majority',
   }),
   cookie: {
     maxAge: (1000 * 60 * 100)
